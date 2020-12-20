@@ -8,9 +8,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core HTML | Incomplete
+|Day 3| Core CSS | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -18,11 +19,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This website is an exhibition of my skills as a web developer, complete with links to my projects and course exercises to display my knowledge and expertise in my field. Included in the display at this time are examples of my CSS styling, jQuery manipulation, and framework usage. These examples are not intended to be static, and will evolve over time as skills, frameworks, and methods are adopted by myself.
+
+Links to relevant sites:
+Insert Link Here
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Link to Google Sheets API [here](https://docs.google.com/spreadsheets/d/1Gw8eY-blGjaksHJJEZ_J94TYduwKqWvDPcdzm8uJunM/edit#gid=0)
 
 ## Wireframes
 
