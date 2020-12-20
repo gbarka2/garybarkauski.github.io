@@ -32,7 +32,7 @@ Link to Google Sheets API [here](https://docs.google.com/spreadsheets/d/1Gw8eY-b
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://imgur.com/a/Sv1ge88)
+- [Mobile](https://imgur.com/a/BpNRowm)
 - [Desktop](https://imgur.com/a/DyyPJnH)
 
 Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-id=2%3A4):
