@@ -22,7 +22,7 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
 
   //use jQuery to render projects to page//
 
-
+  // add carousel js here //
 
 
 
