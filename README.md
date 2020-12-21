@@ -17,6 +17,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 3| Link the projects and display | Incomplete
 |Day 4| Perfect the carosel | Incomplete
 |Day 5| Perfect the display projects | Incomplete
+|Break Days| Add to projects displayed | Incomplete
+|Break Days| Complete new projects for display | Incomplete
 
 ## Project Description
 
