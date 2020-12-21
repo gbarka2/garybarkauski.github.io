@@ -65,15 +65,18 @@ Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Grid Layout | H | 2hr | hr |
-| Flexbox Layout| H | 2hr | hr |
-| Link Projects | H | 15min |  hr | 
+| Mobile Grid Layout | H | 1hr | hr |
+| Desktop Grid Layout | H | 2hr | hr |
+| Mobile Flexbox Layout| H | 2hr | hr |
+| Desktop Flexbox Layout| H | 2hr | hr |
+| Link Projects | H | 30min |  hr | 
 | Style Project Bars | H | 1hr | hr|
 | Header Links | M | 1hr | hr |
-| Nav Functionality and Drop Downs | M | 1.5hr |
-| About Me Bar Styling | L | 30min | hr|
+| Mobile Nav Functionality| M | 2hr | hr |
+| Desktop Dropdowns | M | 2hr | hr |
+| About Me Bar Styling | L | 1hr | hr|
 | Contact Bar and Icon Links | M | 1hr | hr|
-| Total | H | 9.25hrs| hrs |
+| Total | H | 15.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -84,7 +87,7 @@ Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-
 | Total | H | 5hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Use this section to list all supporting libraries and their role in the project. 
 
 ## Code Snippet
 
