@@ -10,12 +10,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core HTML | Incomplete
-|Day 3| Core CSS | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
-
+|Day 2| Core HTML | Incomplete
+|Day 2| Core CSS | Incomplete
+|Day 3| Drop Downs and Links | Incomplete
+|Day 3| Scroll functionality | Incomplete
+|Day 3| Link the projects and display | Incomplete
+|Day 4| Perfect the carosel | Incomplete
+|Day 5| Perfect the display projects | Incomplete
 
 ## Project Description
 
@@ -30,8 +31,6 @@ Link to Google Sheets API [here](https://docs.google.com/spreadsheets/d/1Gw8eY-b
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
 - [Mobile](https://imgur.com/a/BpNRowm)
 - [Desktop](https://imgur.com/a/DyyPJnH)
 
@@ -40,6 +39,28 @@ Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-
 ## Time/Priority Matrix 
 
 [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+
+MOBILE
+Style Header
+hamburger drop down
+badges 
+Style skills bar
+Style About Me bar
+upload and link the projects
+Style projects bars
+Style contact bar
+style nav bar
+set scroll area for nav bar
+
+DESKTOP
+Style header
+set header contact links
+set drop downs for header buttons
+input and style carosel
+style skills bar
+badges
+style contact bar
+set links for contact bar
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
