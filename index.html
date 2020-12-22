@@ -16,7 +16,9 @@
     <!-- ************BOOTSTRAP 5 DOCS -> https://v5.getbootstrap.com/************** -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+    <!--
+      ***********************FONTAWESOME******************************************  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
     <!-- ***************************SHOELACE********************************** -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.esm.js"></script> -->
@@ -30,14 +32,16 @@
 
 
     <header>
-      <h1>Gary Barkauski</h1>
-      <ul class="tablet desktop">
-        <li>LinkedIn Icon</li>
-        <li>Github Icon</li>
-        <li>Email Icon</li>
-      </ul>
-      <article class="mobile">HAMBURGER PLACEHOLDER</article>
-      <article class="mobile">SKILLS BAR - Slider?</article>
+      <div class="title-bar">
+        <h1>Gary Barkauski</h1>
+        <ul class="tablet desktop">
+          <li>LinkedIn Icon</li>
+          <li>Github Icon</li>
+          <li>Email Icon</li>
+        </ul>
+        <i class="fas fa-bars"></i>
+      </div>
+      <article class="mobile skills-bar">SKILLS BAR - Slider?</article>
       <ul class="tablet desktop">
         <li>About Me</li>
         <li>My Work</li>
@@ -47,55 +51,27 @@
 
     
 
-    <section>
+    <section class="mobile about-me">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
+              About Me
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              Full-stack software engineer, <span>dedicated</span> to providing clean, <span>precise</span>  code for both everyday and <span>extraordinary</span>  situations. High emphasis placed on styling, design, and user <span>experience</span> while striving for an <span>intuitive</span> and efficient final product.
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              DELETE THIS ONE
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              DELETE THIS ONE
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-      </div>
 
-
-
-
-
-    <div id="carouselExampleCaptions" class="tablet desktop carousel slide" data-bs-ride="carousel">
+  <section class="tablet desktop">
+    <div id="my-work-carousel" class="tablet desktop carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        <li data-bs-target="#my-work-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#my-work-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#my-work-carousel" data-bs-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -130,41 +106,34 @@
       </a>
     </div>
   </section>
-
-   
-
-    
- 
-
-
     
 
-    <section class="mobile">
-      <article>
+    <section class="mobile example-section">
+      <article id="example1">
         EXAMPLE1
       </article>
-      <article>
+      <article id="example2">
         EXAMPLE2
       </article>
-      <article>
+      <article id="example3">
         EXAMPLE3
       </article>
-      <article>
+      <article id="example4">
         EXAMPLE4
       </article>
-      <article>
+      <article id="example5">
         EXAMPLE5
       </article>
     </section>
 
 
-    <section class="mobile">
-      <p>CONTACT BAR</p>
-      <ul>
-        <li>LinkedIn Icon</li>
-        <li>Resume Link</li>
-        <li>Github Icon</li>
-        <li>Email Icon</li>
+    <section class="mobile contact-bar">
+      <p>Say Hello!!</p>
+      <ul class="icon-list">
+        <li><i class="fab fa-linkedin"></i></li>
+        <li><i class="fas fa-file"></i></li>
+        <li><i class="fab fa-github-alt"></i></li>
+        <li><i class="fas fa-envelope"></i></li>
       </ul>
     </section>
 

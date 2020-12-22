@@ -38,3 +38,71 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
+
+.tablet, .desktop {
+  display: none;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.skills-bar {
+  text-align: center;
+  height: 40px;
+}
+
+.about-me span {
+  color: red;
+  font-style: italic;
+}
+
+.example-section article {
+  text-align: center;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.contact-bar ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+  width: 100px;
+}
+
+/* replace below with classes when ready */
+
+#example1 {
+  background-color: red;
+}
+
+#example2 {
+  background-color: orange;
+}
+
+#example3 {
+  background-color: yellow;
+}
+
+#example4 {
+  background-color: green;
+}
+
+#example5 {
+  background-color: blue;
+}
+/* /////////////////////////////////// */
