@@ -10,8 +10,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Core HTML | Incomplete
-|Day 2| Core CSS | Incomplete
+|Day 2| Core HTML | Complete
+|Day 2| Core CSS | Complete
 |Day 3| Drop Downs and Links | Incomplete
 |Day 3| Scroll functionality | Incomplete
 |Day 3| Link the projects and display | Incomplete
@@ -65,10 +65,10 @@ Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Mobile Grid Layout | H | 1hr | hr |
-| Desktop Grid Layout | H | 2hr | hr |
-| Mobile Flexbox Layout| H | 2hr | hr |
-| Desktop Flexbox Layout| H | 2hr | hr |
+| Mobile Grid Layout | H | 1hr | 0hr |
+| Desktop Grid Layout | H | 2hr | 2hr |
+| Mobile Flexbox Layout| H | 2hr | 2hr |
+| Desktop Flexbox Layout| H | 2hr | 1.5hr |
 | Link Projects | H | 30min |  hr | 
 | Style Project Bars | H | 1hr | hr|
 | Header Links | M | 1hr | hr |
@@ -81,8 +81,8 @@ Link to [Figma](https://www.figma.com/file/nkdOgggnTcWNxFOaThJYLo/Untitled?node-
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Carosel Set Up | H | 2hr | hr | 
-| Style Carosel | H | 2hrs|  hr | 
+| Carosel Set Up | H | 2hr | 2hr | 
+| Style Carosel | H | 2hrs|  .5hr | 
 | Skills Bar Styling | L | 1hr | hr |
 | Total | H | 5hrs| hrs |
 
