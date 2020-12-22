@@ -53,7 +53,7 @@ body {
   margin-left: 10px;
 }
 
-.title-right {
+.title-left {
   display: flex;
 }
 
@@ -131,65 +131,34 @@ header h1 {
 
 
 @media screen and (min-width: 768px) {
-  .mobile  {
-    display: none;
-  }
-
-  .desktop {
-    display: block;
-  }
-
-  body {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-  }
-
-  header {
-    grid-column: 1 / 8;
-    grid-row: 1 / 2;
+  .title-left {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
-  header .title-bar{
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    display: flex;
-    justify-content: flex-start;;
+  .hamburger {
+    display: none;
   }
 
-  header ul {
-    list-style-type: none;
-    display: flex;
-  }
-
-  header .nav-buttons {
-    grid-column: 6 / 8;
-    grid-row: 1 / 2;
+  .nav-buttons {
     display: flex;
     justify-content: flex-end;
+    list-style-type: none;
+    width: 300px;
+  }
+  
+  .nav-buttons li {
+    padding: 5px;
+    font-size: large;
   }
 
-  .header-icons {
-    display: flex;
-    justify-content: space-between;
+  .contact-bar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
   }
 
-  .carousel {
-    grid-column: 1 / 8;
-    grid-row: 2 / 5;
+  .contact-bar li {
+    padding-right: 30px;
   }
-
-  .contact-me {
-    grid-column: 1 / 8;
-    grid-row: 5 / 6;
-  }
-
-
-
-
-
-
 }
