@@ -39,7 +39,7 @@ body {
 ****** PROJECT STYLES
 ******************************************* */
 
-.tablet, .desktop {
+.desktop {
   display: none;
 }
 
@@ -84,6 +84,25 @@ body {
   width: 100px;
 }
 
+nav {
+  height: 100px;
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-group {
+  margin: auto;
+  background-color: transparent;
+}
+
+.btn-group button {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 50px;
+}
+
 /* replace below with classes when ready */
 
 #example1 {
@@ -106,3 +125,7 @@ body {
   background-color: blue;
 }
 /* /////////////////////////////////// */
+
+@media screen and (min-width: 768px) {
+
+}
