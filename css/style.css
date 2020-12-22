@@ -127,5 +127,65 @@ nav {
 /* /////////////////////////////////// */
 
 @media screen and (min-width: 768px) {
+  .mobile  {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  header {
+    grid-column: 1 / 8;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .title-bar{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: flex-start;;
+  }
+
+  header ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  header .nav-buttons {
+    grid-column: 6 / 8;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel {
+    grid-column: 1 / 8;
+    grid-row: 2 / 5;
+  }
+
+  .contact-me {
+    grid-column: 1 / 8;
+    grid-row: 5 / 6;
+  }
+
+
+
+
+
 
 }

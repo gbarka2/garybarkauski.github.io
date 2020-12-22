@@ -34,15 +34,17 @@
     <header>
       <div class="title-bar">
         <h1>Gary Barkauski</h1>
-        <ul class="desktop">
-          <li>LinkedIn Icon</li>
-          <li>Github Icon</li>
-          <li>Email Icon</li>
+        <ul class="desktop header-icons">
+          <li><i class="fab fa-linkedin"></i></li>
+          <li><i class="fab fa-github-alt"></i></li>
+          <li><i class="fas fa-envelope"></i></li>
         </ul>
-        <i class="fas fa-bars"></i>
+        <div class="mobile">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
       <article class="mobile skills-bar">SKILLS BAR - Slider?</article>
-      <ul class="desktop">
+      <ul class="desktop nav-buttons">
         <li>About Me</li>
         <li>My Work</li>
         <li>Contact Me</li>
@@ -52,7 +54,7 @@
     
 
     <section class="mobile about-me">
-      <div class="accordion" id="accordionExample">
+      <section class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -65,9 +67,11 @@
             </div>
           </div>
         </div>
+      </section>
+    </section>
 
-  <section class="desktop">
-    <div id="my-work-carousel" class="tablet desktop carousel slide" data-bs-ride="carousel">
+  <section class="carousel desktop">
+    <div id="my-work-carousel" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li data-bs-target="#my-work-carousel" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#my-work-carousel" data-bs-slide-to="1"></li>
@@ -147,7 +151,7 @@
     </nav>
 
 
-    <section class="desktop">
+    <section class="desktop contact-me">
       <p>Say Hello!!</p>
       <ul>
         <li>LinkedIn Icon</li>
