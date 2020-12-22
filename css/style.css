@@ -43,18 +43,47 @@ body {
   display: none;
 }
 
+
 .title-bar {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.skills-bar {
-  text-align: center;
-  height: 40px;
+.title-right {
+  display: flex;
+}
+
+.img-thumbnail {
+  width: 20%;
+  height: 20%;
+  border-radius: 100px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+.name-icons {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-icons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-me {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .about-me span {
