@@ -210,9 +210,7 @@ header h1 {
   }
 
   .contact-me ul {
-    /* list-style-type: none;
-    display: flex;
-    justify-content: space-around; */
+    list-style-type: none;
   }
 
   .contact-bar {
@@ -220,7 +218,7 @@ header h1 {
     grid-row: 4 / 5;
     font-size: 14px;
   }
-  /* remove once layout completed */
+  
   #example1 {
     background-color: red;
     grid-column: 2 / 4;
