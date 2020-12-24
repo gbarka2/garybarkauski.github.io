@@ -200,13 +200,13 @@ header h1 {
   }
 
   .title-bar {
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
     grid-row: 1 / 2;
   }
 
   .example {
     color: yellow;
-    background-image: url(this.img);
+    background-image: url();
   }
 
   .about-me {
