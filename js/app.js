@@ -19,15 +19,15 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
     }
   })
   const $body = $('body')
-  console.log(projects[0])
   
   projects.forEach((project) => {
-    const $project = $('div').html(`
-    <project-example name=${project.name} img=${project.img} description=${project.description} live=${project.live} github=${project.github}></project-example>
+    const $project = $('<div>').html(`
+    <project-example class="example" name=${project.name} img=${project.img} description=${project.description} live=${project.live} github=${project.github}></project-example>
     `)
     $body.append($project)
-
+    
   })
+  console.log(projects)
   //use jQuery to render projects to page//
 
   // add carousel js here //
