@@ -18,12 +18,12 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
       github: project.gsx$github.$t
     }
   })
-  const $body = $('body')
   
   projects.forEach((project) => {
+    const $body = $('body')
     const $project = $('<div>').html(`
-    <project-example class="example" name="${project.name}" img="background-image: url(${project.img});" description="${project.description}" live=${project.live} github=${project.github}></project-example>
-    `)
+    <project-example class="example" name="${project.name}" style="background-image: url(${project.img})" description="${project.description}" live=${project.live} github=${project.github}></project-example>
+    `).addClass('display')
     $body.append($project)
     
   })
