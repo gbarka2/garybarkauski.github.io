@@ -204,8 +204,9 @@ header h1 {
     grid-row: 1 / 2;
   }
 
-  .nav-buttons {
-    /* grid-column: 2 / 7 */
+  .example {
+    color: yellow;
+    background-image: url(this.img);
   }
 
   .about-me {
@@ -215,17 +216,17 @@ header h1 {
   }
 
   .contact-me {
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     grid-row: 4 / 5;
-  }
-
-  .say-hello {
-    /* grid-column: 5 / 6;
-    grid-row: 3 / 4; */
   }
 
   .contact-me ul {
     list-style-type: none;
+    font-size: 72px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 90px;
+    margin-top: 30px;
   }
 
   .contact-bar {
@@ -233,33 +234,4 @@ header h1 {
     grid-row: 4 / 5;
     font-size: 14px;
   }
-  
-  #example1 {
-    background-color: red;
-    grid-column: 2 / 4;
-    grid-row: 1 / 2;
-  }
-
-  #example2 {
-    background-color: purple;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-  
-  #example3 {
-    background-color: green;
-    grid-column: 2 / 4;
-    grid-row: 3 / 4;
-  }
-  
-  #example4 {
-    background-color: cyan;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-  }
-  
-  #example5 {
-    background-color: yellow;
-  }
-  
 }
