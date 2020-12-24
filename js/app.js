@@ -18,23 +18,25 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
       github: project.gsx$github.$t
     }
   })
-  console.log(projects)
   const $body = $('body')
+  console.log(projects[0])
+  
   projects.forEach((project) => {
     const $project = $('div').html(`
-    <project name=${project.name} img=${project.img} description=${project.description} live=${project.live} github=${project.github}
+    <project-example name=${project.name} img=${project.img} description=${project.description} live=${project.live} github=${project.github}></project-example>
     `)
     $body.append($project)
+
   })
   //use jQuery to render projects to page//
 
   // add carousel js here //
 
-
+})
 
 
   ////////////////////////////////////////////
-})
+
 
 
 //PULL DATA FROM BLOG FROM HEADLESS CMS//

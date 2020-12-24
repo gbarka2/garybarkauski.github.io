@@ -41,7 +41,8 @@ body {
 
 .example,
 .contact-me,
-.nav-buttons {
+.nav-buttons,
+project {
   display: none;
 }
 
