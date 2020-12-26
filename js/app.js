@@ -25,14 +25,21 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
     <project-example class="example" name="${project.name}" style="background-image: url(${project.img})" description="${project.description}" live=${project.live} github=${project.github}></project-example>
     `).addClass('display')
     $body.append($project)
-    
+  })
+
+  // CAROUSEL API INFO //
+  projects.forEach((project) => {
+    const $slide = $('.carousel-inner')
+    const $project = $('<div>').html(`
+    <div style="background-image: url(${project.img})" class="d-block w-100">`).addClass('carousel-item')
+    const $slideActive = $('.carousel-item:first-of-type').addClass('active')
+    $slide.append($project)
   })
   console.log(projects)
   //use jQuery to render projects to page//
-
-  // add carousel js here //
-
 })
+  // add carousel js here //
+  
 
 
   ////////////////////////////////////////////
