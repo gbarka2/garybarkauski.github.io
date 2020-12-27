@@ -37,6 +37,15 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
     const $slideActive = $('.carousel-item:first-of-type').addClass('active')
     $slide.append($project)
   })
+
+  projects.forEach((project) => {
+    const $drop = $('#dropdown1')
+    const $content = $('<li>').html(`
+    <a href="${project.live}">${project.name}</a>
+    `)
+    $drop.append($content)
+  })
+
   console.log(projects)
 })
 
