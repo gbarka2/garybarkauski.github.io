@@ -28,22 +28,25 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
   })
 
   // CAROUSEL API INFO //
+  // NOT WORKING //
   projects.forEach((project) => {
     const $slide = $('.carousel-inner')
     const $project = $('<div>').html(`
     <div style="background-image: url(${project.img})" class="d-block w-100">`).addClass('carousel-item')
+    //remove $slideActive?
     const $slideActive = $('.carousel-item:first-of-type').addClass('active')
     $slide.append($project)
   })
   console.log(projects)
-  //use jQuery to render projects to page//
 })
-  // add carousel js here //
+
+$('.icons').on('click', (event) => {
+  if ($('.fa-linkedin')) {
+    window.open('http://www.linkedin.com/in/gary-barkauski')
+  } 
+})
   
 
 
-  ////////////////////////////////////////////
 
 
-
-//PULL DATA FROM BLOG FROM HEADLESS CMS//
