@@ -41,7 +41,7 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
 })
 
 $('.icons').on('click', (event) => {
-  if ($('.fa-linkedin')) {
+  if ($('.linkedin')) {
     window.open('http://www.linkedin.com/in/gary-barkauski')
   } 
 })
