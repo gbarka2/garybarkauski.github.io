@@ -52,6 +52,7 @@ $('.email').on('click', (event) => {
   window.open("mailto:gbarka2@gmail.com")
 })
   
+$('.dropdown-trigger').dropdown();
 
 
 
