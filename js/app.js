@@ -40,10 +40,16 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
   console.log(projects)
 })
 
-$('.icons').on('click', (event) => {
-  if ($('.linkedin')) {
+$('.linkedin').on('click', (event) => {
     window.open('http://www.linkedin.com/in/gary-barkauski')
-  } 
+  })
+
+$('.github').on('click', (event) => {
+  window.open('https://github.com/gbarka2')
+})
+
+$('.email').on('click', (event) => {
+  window.open("mailto:gbarka2@gmail.com")
 })
   
 
