@@ -39,11 +39,13 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
   })
 
   projects.forEach((project) => {
-    const $drop = $('#dropdown1')
+    const $drop1 = $('#dropdown1')
+    const $drop2 = $('#dropdown2')
     const $content = $('<li>').html(`
     <a href="${project.live}">${project.name}</a>
     `)
-    $drop.append($content)
+    $drop1.append($content)
+    $drop2.append($content)
   })
 
   console.log(projects)
@@ -63,6 +65,6 @@ $('.email').on('click', (event) => {
   
 $('.dropdown-trigger').dropdown();
 
-
-
-
+$('.project-list').on('click', (event) => {
+  window.open('https://docs.google.com/spreadsheets/d/1Gw8eY-blGjaksHJJEZ_J94TYduwKqWvDPcdzm8uJunM/edit?usp=sharing')
+})

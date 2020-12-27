@@ -211,6 +211,7 @@ header h1 {
   .contact-me li:nth-of-type(2) {
     margin-left: 7px;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -307,10 +308,6 @@ header h1 {
     justify-content: space-around;
     margin-right: 90px;
     margin-top: 30px;
-  }
-
-  .contact-me li {
-    
   }
 
 }
