@@ -36,13 +36,15 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
   })
 
   projects.forEach((project) => {
-    const $drop1 = $('#dropdown1')
-    const $drop2 = $('#dropdown2')
+    const $dropdown = $('.dropdown-menu')
     const $content = $('<li>').html(`
     <a href="${project.live}">${project.name}</a>
-    `)
-    $drop1.append($content)
-    $drop2.append($content)
+    `).addClass('dropdown-item')
+    $dropdown.append($content)
+  })
+
+  $('.dropdown-item').on('click', (event) => {
+    window.open(`${project.live}`)
   })
 
   console.log(projects)
@@ -59,9 +61,8 @@ $('.github').on('click', (event) => {
 $('.email').on('click', (event) => {
   window.open("mailto:gbarka2@gmail.com")
 })
-  
-$('.dropdown-trigger').dropdown();
 
 $('.project-list').on('click', (event) => {
   window.open('https://docs.google.com/spreadsheets/d/1Gw8eY-blGjaksHJJEZ_J94TYduwKqWvDPcdzm8uJunM/edit?usp=sharing')
 })
+
