@@ -33,6 +33,12 @@ body {
   font-size: 32px;
 }
 
+.dropdown-menu a {
+  text-decoration: none;
+  color: red;
+  opacity: 75%;
+}
+
 .title-left {
   display: flex;
 }
@@ -124,6 +130,7 @@ header h1 {
 .contact-me {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  margin-top: 42px;
 }
 
 .contact-me li {
@@ -166,8 +173,12 @@ header h1 {
     padding-right: 30px;
   }
 
+  .icons {
+    margin-top: 10px;
+  }
+
   .contact-me li {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 10px;
     margin-right: 0px;
   }
@@ -217,8 +228,7 @@ header h1 {
   .my-work {
     padding-left: 25px;
   }
-
-
+  
   .display {
     border: 2px white solid;
     border-radius: 10px;
@@ -295,8 +305,18 @@ header h1 {
     font-size: 72px;
     display: flex;
     justify-content: space-around;
-    margin-right: 90px;
-    margin-top: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .icons {
+    width: 400px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .icons li {
+    font-size: 80px;
   }
 
 }
