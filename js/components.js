@@ -2,8 +2,10 @@ class Project extends HTMLElement {
   constructor() {
     super()
     this.innerHTML = `
-    <i class="fab fa-github-alt github"></i>
-    <p>${this.getAttribute("name")}</p>
+    <div class="display-content">
+      <i class="fab fa-github-alt github"></i>
+      <p>${this.getAttribute("name")}</p>
+    </div>
     
     `
   }
