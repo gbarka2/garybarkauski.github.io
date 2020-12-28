@@ -1,47 +1,9 @@
-/* *******************************************
-****** PROJECT SETUP
-******************************************* */
 
-/* VARIABLES */
-:root {
-  /* MAIN COLORS */
-  --main: black;
-  --secondary: white;
-  --accent: red;
-
-  /* FONTS */
-  --title: serif;
-  --text: aerial;
-}
-
-/* GLOBAL STYLES */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* outline: 2px solid gold; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--title);
-}
-
-body {
-  font-family: var(--text);
-}
-
-/* *******************************************
-****** PROJECT STYLES
-******************************************* */
 
 .example,
 .nav-buttons,
-.example {
+.example,
+.dropdown-toggle::after {
   display: none;
 }
 
@@ -58,6 +20,16 @@ body {
   margin-top: 10px;
   margin-right: 20px;
   margin-left: 10px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.dropdown button {
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
 }
 
 .title-left {

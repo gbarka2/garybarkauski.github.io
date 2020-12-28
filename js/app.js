@@ -27,14 +27,11 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
     $body.append($project)
   })
 
-  // CAROUSEL API INFO //
-  // NOT WORKING //
   projects.forEach((project) => {
     const $slide = $('.carousel-inner')
     const $project = $('<div>').html(`
     <img src="${project.img}" class="d-block w-100">`).addClass('carousel-item')
-    //remove $slideActive?
-    const $slideActive = $('.carousel-item:first-of-type').addClass('active')
+    $('.carousel-item:first-of-type').addClass('active')
     $slide.append($project)
   })
 
