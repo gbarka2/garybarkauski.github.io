@@ -40,12 +40,20 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
     const $project = $('<div>').html(`
     <img src="${project.img}" class="d-block w-100">
     <p>${project.name}</p>
+    <i class="fab fa-github-alt github">
     `).addClass('carousel-item')
     $('.carousel-item:first-of-type').addClass('active')
+   
     $slide.append($project)
-
-
   })
+
+  projects.forEach((project) => {
+    $('.carousel-content').html(`
+      <p>${project.name}</p>
+      <i class="fab fa-github-alt github">
+    `)
+  })
+
 
   projects.forEach((project) => {
     const $dropdown = $('.dropdown-menu')

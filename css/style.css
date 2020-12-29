@@ -103,9 +103,17 @@ header h1 {
   height: 255px;
 }
 
-.carousel-item {
-  height: 260px;
+.carousel-item img {
   background-size: cover;
+}
+
+.carousel-item p,
+.carousel-item i {
+  margin-bottom: 0;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  color: red;
+  opacity: 75%;
 }
 
 .contact-bar {
