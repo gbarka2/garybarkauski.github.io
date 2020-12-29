@@ -99,6 +99,15 @@ header h1 {
   margin-top: 25px;
 }
 
+.carousel-inner {
+  height: 255px;
+}
+
+.carousel-item {
+  height: 260px;
+  background-size: cover;
+}
+
 .contact-bar {
   display: grid;
   grid-template-columns: 2fr 1fr;
