@@ -38,21 +38,19 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Gw8eY-blGjaksHJJEZ_J94TYduwK
   projects.forEach((project) => {
     const $slide = $('.carousel-inner')
     const $project = $('<div>').html(`
+    <p class"github">${project.name}</p>
     <img src="${project.img}" class="d-block w-100">
-    <p>${project.name}</p>
-    <i class="fab fa-github-alt github">
     `).addClass('carousel-item')
     $('.carousel-item:first-of-type').addClass('active')
-   
     $slide.append($project)
+
+    $('img').on('click', (event) => {
+      window.open(`${project.live}`)
+    })
+
   })
 
-  projects.forEach((project) => {
-    $('.carousel-content').html(`
-      <p>${project.name}</p>
-      <i class="fab fa-github-alt github">
-    `)
-  })
+  
 
 
   projects.forEach((project) => {

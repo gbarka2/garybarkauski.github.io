@@ -105,11 +105,11 @@ header h1 {
 
 .carousel-item img {
   background-size: cover;
+  height: 100%;
 }
 
-.carousel-item p,
-.carousel-item i {
-  margin-bottom: 0;
+.carousel-item p {
+  margin-bottom: 3px;
   margin-left: 10px;
   letter-spacing: 2px;
   color: red;
